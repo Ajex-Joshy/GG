@@ -66,11 +66,48 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
+                                       <style>
+                        body {
+                            margin: 0;
+                            padding: 0;
+                        }
+                
+                        .logo {
+            padding-top: 1px; /* Adjust as needed */
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+                
+                        .logo a {
+                            display: inline-block;
+                        }
+                
+                        .logo a img {
+                            width: 100%; /* Full width */
+                            max-width: 200px; /* Max width of the logo */
+                            height: auto; /* Maintain aspect ratio */
+                        }
+                
+                        @media (max-width: 768px) {
+                            .logo a img {
+                                max-width: 200px; /* Smaller max width on smaller screens */
+                            }
+                        }
+                
+                        @media (max-width: 480px) {
+                            .logo a img {
+                                max-width: 100px; /* Even smaller max width on very small screens */
+                            }
+                        }
+                    </style>
+               
                     <div class="logo">
                         <a href="./index.html">
-                            <img src="img/logo.png" alt="">
+                            <img src="img/logo.png" alt="Logo">
                         </a>
                     </div>
+                </div>
                 </div>
                 <div class="col-lg-6">
                     <nav class="nav-menu">
