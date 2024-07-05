@@ -65,29 +65,30 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
-                        <style>
+                                            <style>
                         body {
                             margin: 0;
                             padding: 0;
                         }
-                
+                    
                         .logo {
                             padding-top: 10px; /* Default padding */
                             position: absolute;
                             top: 0;
-                            left: 0;
+                            left: 50%; /* Center horizontally */
+                            transform: translateX(-50%);
                         }
-                
+                    
                         .logo a {
                             display: inline-block;
                         }
-                
+                    
                         .logo a img {
                             width: 100%; /* Full width */
                             max-width: 200px; /* Max width of the logo */
                             height: auto; /* Maintain aspect ratio */
                         }
-                
+                    
                         @media (max-width: 768px) {
                             .logo {
                                 padding-top: 5px; /* Reduce padding on smaller screens */
@@ -96,13 +97,13 @@
                                 max-width: 250px; /* Increase max width on smaller screens */
                             }
                         }
-                
+                    
                         @media (max-width: 480px) {
                             .logo {
                                 padding-top: 0px; /* Further reduce padding on very small screens */
                             }
                             .logo a img {
-                                max-width: 100px; /* Increase max width on very small screens */
+                                max-width: 200px; /* Increase max width on very small screens */
                             }
                         }
                     </style>
